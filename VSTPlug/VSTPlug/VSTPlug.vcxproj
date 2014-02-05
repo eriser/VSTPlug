@@ -14,6 +14,7 @@
     <ProjectGuid>{E62231BA-50A9-4E40-A53A-8A2B63FDA015}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>VSTPlug</RootNamespace>
+    <ProjectName>LibProcessing</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -76,6 +77,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\src\LibProcessing\LibProcessing.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\LibProcessing\LibProcessing.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
