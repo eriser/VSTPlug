@@ -8,6 +8,7 @@ namespace LibProcessing
 {
 	class LibProcessing
 	{
+	public :
 		static PROCESSINGDLL_API void TestFunction();
 	};
 }
